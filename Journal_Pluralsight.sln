@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journal_Pluralsight", "Journal_Pluralsight.csproj", "{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journal_Pluralsight", "Journal_Pluralsight.csproj", "{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest_Journal_Pluralsight", "..\XUnitTest_Journal_Pluralsight\XUnitTest_Journal_Pluralsight.csproj", "{0DE9D1D1-A4DB-49AD-B4EC-A1EFD6D24654}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11} = {EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF7DB9E0-E4AB-44D5-9619-3EE1F7585F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE9D1D1-A4DB-49AD-B4EC-A1EFD6D24654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE9D1D1-A4DB-49AD-B4EC-A1EFD6D24654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE9D1D1-A4DB-49AD-B4EC-A1EFD6D24654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE9D1D1-A4DB-49AD-B4EC-A1EFD6D24654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

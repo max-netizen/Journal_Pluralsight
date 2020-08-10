@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Journal_Pluralsight
 {
@@ -6,7 +7,10 @@ namespace Journal_Pluralsight
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var book = new Book("Maks");
+            book.addGrade(66.5);
+            book.addGrade(77.1);
+            book.ShowStatistcs();
         }
     }
 }
